@@ -1,8 +1,8 @@
 <?php
-define("DB_HOST", "localhost");
-define("DB_USER", "root");
-define("DB_PASS", "");
-define("DB_NAME", "db_animal");
+define("DB_HOST", "sql5.freesqldatabase.com");
+define("DB_USER", "sql5411810");
+define("DB_PASS", "paD168TRj7");
+define("DB_NAME", "sql5411810");
 define("TITLE", "Animal Blog");
 define("KEYWORDS", "Animal Biography, Domestic Animal, Loving Animal");
 
