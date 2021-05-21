@@ -6,7 +6,6 @@ Website Link
 http://animal.sakisite.xyz/
 
 // For Admin //
-
 http://animal.sakisite.xyz/admin
 
 Editor Username = Riaz
