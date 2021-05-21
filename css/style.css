@@ -1,6 +1,9 @@
 *{
   box-sizing: border-box;
 }
+html,body{
+    overflow-x: hidden;
+}
 body{
   background-color: #ecf0f1;
 }
@@ -1028,3 +1031,4 @@ width: 100%;
 .h2_custom{
     padding-bottom:8px;border-bottom: 2px solid #f1c40f;
 }
+

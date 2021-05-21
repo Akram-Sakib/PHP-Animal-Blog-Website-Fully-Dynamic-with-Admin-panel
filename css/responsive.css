@@ -82,3 +82,15 @@
 }
 
 }
+
+
+@media all and (max-width: 400px){
+
+  .pagination a {
+    padding: 5px 10px;
+    font-size: 12px;
+
+}
+
+
+}

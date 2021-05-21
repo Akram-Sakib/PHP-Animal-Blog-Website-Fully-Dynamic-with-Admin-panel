@@ -56,10 +56,11 @@ if ($row_categories == true) {?>
               <div class="my_card my_card_post clearfix">
                 <div class="pagination">
                 <?php
-$pagination_query = "SELECT * FROM tbl_post WHERE title LIKE '%$search%' OR body LIKE '%$search%' LIMIT $start_form,$per_page";
+$pagination_query = "SELECT * FROM tbl_post WHERE title LIKE '%$search%' OR body LIKE '%$search%' ";
     $pagination_result = $db->select($pagination_query);
     $total_rows = mysqli_num_rows($pagination_result);
     $total_pages = ceil($total_rows / $per_page);
+    
 
     echo "<a href='search.php?search=$search&submit=$submit'>First Page</a>";
 

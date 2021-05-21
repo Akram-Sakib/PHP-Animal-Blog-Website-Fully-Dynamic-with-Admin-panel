@@ -54,9 +54,9 @@
               <div class="my_card my_card_post clearfix">
                 <div class="pagination">
                 <?php
-                $pagination_query = "SELECT * FROM tbl_post WHERE cat = '$category' LIMIT $start_form,$per_page";
+                $pagination_query = "SELECT * FROM tbl_post WHERE cat = '$category' ";
                 $pagination_result = $db->select($pagination_query);
-                $total_rows = mysqli_num_rows($pagination_result);
+               echo $total_rows = mysqli_num_rows($pagination_result);
                 $total_pages = ceil($total_rows / $per_page);
 
                 echo "<a href='posts.php?category=$category'>First Page</a>";

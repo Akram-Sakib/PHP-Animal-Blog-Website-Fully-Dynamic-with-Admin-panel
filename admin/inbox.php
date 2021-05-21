@@ -115,6 +115,7 @@ if (Session::get('userRole') == '2' || Session::get('userRole') == '3') {
 						$query = "UPDATE tbl_contact SET status = '0' WHERE id = '$unseenid'";
 						$updated_row = $db->update($query);
 						if ($updated_row) {
+                            echo "<script>window.location = 'inbox.php'</script>" ;
                             $msg = "<div class='alert alert-success'><Strong>Success ! </Strong>Message sent in the Inbox</div> ";
                             echo $msg;
 						}else {
